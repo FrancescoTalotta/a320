@@ -1,0 +1,53 @@
+﻿Compilazione avviata 05/06/2013 12:29:18.
+     1>Progetto "C:\Users\daniele\Documents\a320projet\cockpit_magenta\cockpit.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         H:\Programmi (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\cockpit.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         H:\Programmi (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\cockpit.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt cockpit.cpp glareshield.cpp mainPanel.cpp sound.cpp
+         sound.cpp
+     1>sound.cpp(33): warning C4553: '==': l'operatore non ha effetto. Si intendeva '='?
+     1>sound.cpp(47): warning C4244: 'argomento': conversione da 'double' a 'DWORD'. Possibile perdita di dati.
+         mainPanel.cpp
+         glareshield.cpp
+         cockpit.cpp
+         Generazione del codice in corso...
+       Link:
+         H:\Programmi (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\daniele\Documents\a320projet\cockpit_magenta\x64\Debug\cockpit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\daniele\Documents\a320projet\cockpit_magenta\x64\Debug\cockpit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\daniele\Documents\a320projet\cockpit_magenta\x64\Debug\cockpit.lib" /MACHINE:X64 x64\Debug\cockpit.obj
+         x64\Debug\glareshield.obj
+         x64\Debug\mainPanel.obj
+         x64\Debug\sound.obj
+         x64\Debug\stdafx.obj
+         fsbus.lib
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_CheckIn non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_CheckOut non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusMux non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusOpen non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusClose non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusWriteFmt3 non risolto nella funzione main
+     1>glareshield.obj : error LNK2001: simbolo esterno __imp_FsbusWriteFmt3 non risolto
+     1>sound.obj : error LNK2001: simbolo esterno __imp_FsbusWriteFmt3 non risolto
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_FsConnect non risolto nella funzione main
+     1>cockpit.obj : error LNK2019: riferimento al simbolo esterno __imp_SetPower non risolto nella funzione main
+     1>sound.obj : error LNK2001: simbolo esterno __imp_SetPower non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_MkFsObject non risolto nella funzione "void __cdecl BuildglareObjects(void)" (?BuildglareObjects@@YAXXZ)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_MkFsObject non risolto
+     1>sound.obj : error LNK2001: simbolo esterno __imp_MkFsObject non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_MkFsbusObject non risolto nella funzione "void __cdecl BuildglareObjects(void)" (?BuildglareObjects@@YAXXZ)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_MkFsbusObject non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_DisplayOptions non risolto nella funzione "void __cdecl BuildglareObjects(void)" (?BuildglareObjects@@YAXXZ)
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusWrite non risolto nella funzione "void __cdecl Syncroglare(void)" (?Syncroglare@@YAXXZ)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_FsbusWrite non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_FsReadDirect non risolto nella funzione "void __cdecl Syncroglare(void)" (?Syncroglare@@YAXXZ)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_FsReadDirect non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_FsWriteInt non risolto nella funzione "void __cdecl eventhandler(int,int,double)" (?eventhandler@@YAXHHN@Z)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_FsWriteInt non risolto
+     1>glareshield.obj : error LNK2019: riferimento al simbolo esterno __imp_FsbusPowerOffOptions non risolto nella funzione "void __cdecl BuildglareObjects(void)" (?BuildglareObjects@@YAXXZ)
+     1>mainPanel.obj : error LNK2001: simbolo esterno __imp_FsbusPowerOffOptions non risolto
+     1>sound.obj : error LNK2019: riferimento al simbolo esterno __imp_MkSound non risolto nella funzione "void __cdecl BuildObjectsSound(void)" (?BuildObjectsSound@@YAXXZ)
+     1>sound.obj : error LNK2019: riferimento al simbolo esterno __imp_Play non risolto nella funzione "void __cdecl EventHandlerSound(int,int,double)" (?EventHandlerSound@@YAXHHN@Z)
+     1>C:\Users\daniele\Documents\a320projet\cockpit_magenta\x64\Debug\cockpit.exe : fatal error LNK1120: 17 esterni non risolti
+     1>Compilazione progetto "C:\Users\daniele\Documents\a320projet\cockpit_magenta\cockpit.vcxproj" (destinazioni: Build) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:00:06.51

@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  xplane.cpp
+c:\users\ciccio\documents\a320projet\cockpit_magenta\xplane.cpp(32): warning C4101: 'fPayload': unreferenced local variable
+c:\users\ciccio\documents\a320projet\cockpit_magenta\xplane.cpp(31): warning C4101: 'i': unreferenced local variable
+  sound.cpp
+c:\users\ciccio\documents\a320projet\cockpit_magenta\sound.cpp(33): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\ciccio\documents\a320projet\cockpit_magenta\sound.cpp(49): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+  mainPanel.cpp
+  glareshield.cpp
+  cockpit.cpp
+  pedestal.cpp
+  Generating Code...
+  cockpit.vcxproj -> C:\Users\ciccio\Documents\a320projet\cockpit_magenta\Debug\cockpit.exe
