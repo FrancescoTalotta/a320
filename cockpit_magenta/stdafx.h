@@ -53,21 +53,25 @@ enum  _object_groups
 
 	//GROUP_FWDOVERHEAD,                // 4
 
-	GROUP_PEDESTAL,                   // 5
+	GROUP_PEDESTAL,                     // 5
 
 	GROUP_SOUND,                        // 6
 
-	//GROUP_THROTTLEQUADRANT,             // 7
+	//GROUP_THROTTLEQUADRANT,           // 7
 
 	//GROUP_FLIGHTSELECTOR				// 8
+
+	GROUP_SIDESTICK_RIGHT               // 9
 
 };
 
 #include "glareshield.h"
 #include "mainpanel.h"
 #include "pedestal.h"
+#include "Sidestick_Right.h"
 #include "sound.h"
 #include "xplane.h"
+
 
 
 

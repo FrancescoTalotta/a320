@@ -22,7 +22,7 @@
     <ProjectGuid>{984CBD78-D165-4ADA-BB1C-602C4333C57F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>cockpit</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="pedestal.h" />
     <ClInclude Include="glareshield.h" />
+    <ClInclude Include="Sidestick_Right.h" />
     <ClInclude Include="sound.h" />
     <ClInclude Include="mainpanel.h" />
     <ClInclude Include="stdafx.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="glareshield.cpp" />
     <ClCompile Include="mainPanel.cpp" />
     <ClCompile Include="sound.cpp" />
+    <ClCompile Include="Sidestick_Right.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

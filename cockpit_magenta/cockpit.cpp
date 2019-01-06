@@ -36,6 +36,7 @@ void main()
 		BuildglareObjects();
 		BuildMainPanelObjects();
 		BuildPedestalObjects();
+		BuildSidestick_Right_Objects();
 		FsbusMux(250);
 
 		// Synchronise the attached hardware with flight simulator
@@ -80,6 +81,11 @@ void EventHandler(int ObjectID, int Value, double DoubleValue)
 				eventhandlermain(ObjectID, Value, DoubleValue);
 			}
             break;
+		case GROUP_SIDESTICK_RIGHT:
+		     {
+			    eventhandlermain(ObjectID, Value, DoubleValue);
+		     }
+		break;
 		case FCU_GROUP_OID:
 			{
 				eventhandler(ObjectID, Value, DoubleValue);
